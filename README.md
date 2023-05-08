@@ -34,8 +34,6 @@
 9. deepAR.setAREventListener()
 10. deepAR.setRenderSurface()
 
-## [Referensi/Penjelasan API dari DeepAR](https://s3.eu-west-1.amazonaws.com/sdk.developer.deepar.ai/doc/android/index.html)
-
 ## Permission yang digunakan
 
 1. Camera - `android.permission.CAMERA`
@@ -48,4 +46,5 @@
 
 ## [Dokumentasi DeepAR](https://docs.deepar.ai/deepar-sdk/deep-ar-sdk-for-android/getting-started/)
 
+## [Referensi/Penjelasan API dari DeepAR](https://s3.eu-west-1.amazonaws.com/sdk.developer.deepar.ai/doc/android/index.html)
 
