@@ -121,7 +121,8 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
     private void initializeFilters() {
         effects = new ArrayList<>();
         effects.add("none");
-        effects.add("viking_helmet.deepar");
+        effects.add("kacamata.deepar");
+        effects.add("https://storage.googleapis.com/deepar-sample/kacamata.deepar");
         effects.add("MakeupLook.deepar");
         effects.add("Split_View_Look.deepar");
         effects.add("Emotions_Exaggerator.deepar");
@@ -331,7 +332,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
     }
     private void initializeDeepAR() {
         deepAR = new DeepAR(this);
-        deepAR.setLicenseKey("your_license_key_here");
+        deepAR.setLicenseKey("97f7d6f8f6298fb83ffb107cc89e0673e1fc7985a4d0f436b963556a35fdbd695b21fbd34594401b");
         deepAR.initialize(this, this);
         setupCamera();
     }
